@@ -1,0 +1,191 @@
+/* =========================================
+   Base Styles: 画面のガタつき防止
+   ========================================= */
+html {
+  /* スクロールバーが出ても出なくても、常にスペースを確保してガタつきを防止 */
+  scrollbar-gutter: stable;
+}
+
+/* =========================================
+   Base Styles
+   ========================================= */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans JP", sans-serif;
+  color: #2d3748;
+  background-color: #f8fafc; /* 白を際立たせる薄いグレー背景 */
+  line-height: 1.6;
+}
+
+/* =========================================
+   Header (Blue Gradient)
+   ========================================= */
+.page-header {
+  /* 高さを240pxから160pxに短縮 */
+  height: 160px; 
+  background: linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  /* 左右の余白を維持しつつ、上下の詰まりすぎを防止 */
+  padding: 0 80px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  gap: 30px; 
+}
+
+/* ロゴ画像のスタイル */
+.header-logo {
+  width: 100px;  /* 120pxから100pxに少し縮小 */
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  flex-shrink: 0; 
+}
+
+.page-header h1 {
+  /* フォントサイズを少しだけ下げると、さらに余白に余裕が出ます */
+  font-size: 26px; 
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  margin: 0;
+}
+
+/* =========================================
+   Main Layout
+   ========================================= */
+.main-layout {
+  display: flex;
+  width: 100%;           /* 必須：常に全幅を使おうとする */
+  max-width: 1200px;      /* 最大幅を制限 */
+  margin: 20px auto;      /* autoで中央寄せを保証 */
+  gap: 50px;
+  padding: 0 20px;
+  align-items: flex-start;
+  box-sizing: border-box; /* パディングを含めた計算にする */
+}
+
+/* =========================================
+   Sidebar
+   ========================================= */
+.sidebar {
+  width: 260px;
+  flex-shrink: 0; /* タイトル等に押されて縮むのを防止 */
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: sticky;
+  top: 20px;
+}
+
+.sidebar li {
+  background: #edf2f7;
+  padding: 16px 20px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: #4a5568;
+  font-size: 0.95rem;
+}
+
+.sidebar li:hover {
+  background: #e2e8f0;
+  transform: translateX(4px);
+}
+
+.sidebar li.active {
+  background: #fff;
+  color: #1a365d;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  border-left: 5px solid #c27c2c; /* オレンジのアクセント線 */
+}
+
+/* =========================================
+   Content Area
+   ========================================= */
+.content {
+  flex: 1;
+  background: #fff;
+  /* 上のパディングを 40px から 25px に縮小 (上 右 下 左) */
+  padding: 20px 40px 40px 40px; 
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  min-width: 0;
+}
+
+/* 各タブの共通タイトル（インデントなし、左端固定） */
+.section-title {
+  font-size: 1.6rem;
+  color: #1a365d;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 12px;
+  margin-bottom: 25px;
+  margin-top: 0;
+  font-weight: bold;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+}
+
+/* タブ内コンテンツのベースインデント */
+.tab-body.level-1 {
+  margin-left: 1.5em;
+}
+
+/* =========================================
+   Components (Schedule, Lists, etc.)
+   ========================================= */
+
+/* スケジュール内の日付見出し */
+.day-title {
+  font-size: 1.25rem;
+  color: #2d3748;
+  background-color: #f7fafc;
+  padding: 8px 15px;
+  border-left: 4px solid #c27c2c;
+  /* 親の .tab-body.level-1 の余白を打ち消して左端に揃える */
+  margin: 30px 0 20px -1.5em; 
+  font-weight: bold;
+}
+
+.program-item {
+  margin-bottom: 16px;
+}
+
+/* 下層のインデントと装飾 */
+.session-list li {
+  /* 1.8rem から 1.0rem に縮小 */
+  margin-bottom: 1.0rem; 
+  line-height: 1.6;
+  color: #4a5568;
+}
+
+/* 名前と発表タイトルの間の距離を微調整したい場合はここを調整 */
+.level-2 {
+  display: block;
+  margin-top: 4px; /* 6pxから少し狭めても良いかもしれません */
+  margin-left: 1.5em;
+  color: #718096;
+  font-style: italic;
+  font-size: 0.95rem;
+  border-left: 2px solid #edf2f7;
+  padding-left: 1em;
+}
+
+
+/* コンタクト用リンク */
+a {
+  color: #2b6cb0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
