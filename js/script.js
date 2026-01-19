@@ -16,9 +16,11 @@ const contents = {
           <a href="https://www.chitose-bunka.jp/access/" target="_blank">https://www.chitose-bunka.jp/access/</a>
         </p>
         <p><strong>Theme:</strong> Building Learning Support Platforms Utilizing Advanced Technologies such as AI and XR</p>
-        <p><strong>Organizer / Project Representative (PI):</strong> Hiroshi Komatsugawa (CIST)</p>
+        <p><strong>Organizer / Project Representative (PI):</strong> Hiroshi Komatsugawa, Chitose Institute of Science and Technology (CIST)</p>
       </div>
-      <p class="program-item level-1" style="margin-top: 20px;"> This meeting will discuss and explore the design and implementation of next-generation learning support platforms.
+      <p class="program-item level-1" style="margin-top: 20px;"> 
+        This meeting will discuss and explore the design and implementation of next-generation learning support platforms that leverage cutting-edge technologies, including Artificial Intelligence (AI), Extended Reality (XR), and related fields. 
+        Through presentations, discussions, and demonstrations, we will examine how these technologies can be integrated to enhance personalized, immersive, and data-driven learning experiences.
       </p>
     </div>
   `,
@@ -49,7 +51,7 @@ const contents = {
           <li>
               Developers working in specialized fields:
               <span class="level-2">
-                  Educational technology, AI, Human-Computer Interaction (HCI), XR systems, and Learning Analytics
+                  Educational technology, Artificial Intelligence(AI), Human-Computer Interaction (HCI), XR systems, and Learning Analytics
               </span>
           </li>
       </ul>
@@ -64,12 +66,12 @@ const contents = {
       <p class="program-item level-1">13:00 Greeting: Hiroshi Komatsugawa (CIST)</p>
       
       <p class="program-item level-1">
-        13:20 Guest Presentation (1): Mike Ka Pui SO (HKUST);<br>
+        13:20 Guest Presentation (1): Mike Ka Pui SO (Hong Kong University of Science and Technology);<br>
         <span class="level-2">Enhancing Students' Academic Performance in Statistics Through an AI-Assisted Pedagogy</span>
       </p>
 
       <p class="program-item level-1">
-        13:50 Guest Presentation(2): CHU Man Ying Amanda (EdUHK);
+        13:50 Guest Presentation(2): CHU Man Ying Amanda (The Education University of Hong Kong);
       </p>
 
       <p class="program-item level-1">
@@ -78,7 +80,7 @@ const contents = {
       </p>
 
       <p class="program-item level-1">
-        14:50 Manabu Asai (Soka Univ.);<br>
+        14:50 Manabu Asai (Souka Univ.);<br>
         <span class="level-2">The Impact of Generative AI Usage on Critical Thinking Skills at Soka University</span>
       </p>
 
@@ -145,6 +147,7 @@ const contents = {
                   <td><a href="mailto:hiroshi@photon.chitose.ac.jp">hiroshi@photon.chitose.ac.jp</a></td>
               </tr>
           </table>
+        <p>We look forward to your participation and to fruitful discussions that will advance AI-driven learning technologies.</p>
       </div>
     </div>
   `
