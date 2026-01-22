@@ -10,7 +10,7 @@ const contents = {
       </p>
       <div class="info-block level-1" style="line-height: 2.0; margin-top: 20px;">
         <p><strong>Dates:</strong> January 24 (Sat) – 25 (Sun), 2026</p>
-        <p><strong>Venue:</strong> Chitose Civic Cultural Center, Chitose, Hokkaido, Japan</p>
+        <p><strong>Venue:</strong> Chitose Civic Cultural Center [2F Muti-Purpose Room] , Chitose, Hokkaido, Japan</p>
         <p>
           <strong>Access:</strong>
           <a href="https://www.chitose-bunka.jp/access/" target="_blank">https://www.chitose-bunka.jp/access/</a>
