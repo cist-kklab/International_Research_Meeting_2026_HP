@@ -80,7 +80,11 @@ const contents = {
         <span class="level-2">The Impact of Generative AI Usage on Critical Thinking Skills at Soka University</span>
       </p>
 
-      <p class="program-item level-1">15:10 Hiroto Yamakawa (CIST)</p>
+      <p class="program-item level-1">
+        15:10 Hiroto Yamakawa (CIST);
+        <span class="level-2">A Proposal for a System Development Process to Enhance Understandability of Application and Domain Layers for Student Developers</span>
+      </p>
+      
       <p class="program-item level-1">
         15:30 Syunichi Honda (CIST);<br>
         <span class="level-2">A report on the instructional practice in a statistics course incorporating CBT and AI-based feedback</span>
