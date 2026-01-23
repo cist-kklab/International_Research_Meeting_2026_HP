@@ -66,12 +66,8 @@ const contents = {
       <p class="program-item level-1">13:00 Greeting: Hiroshi Komatsugawa (CIST)</p>
       
       <p class="program-item level-1">
-        13:20 Guest Presentation (1): Mike Ka Pui SO (Hong Kong University of Science and Technology);<br>
+        13:20 Guest Presentation : Mike Ka Pui SO (Hong Kong University of Science and Technology) and CHU Man Ying Amanda (The Education University of Hong Kong);<br>
         <span class="level-2">Enhancing Students' Academic Performance in Statistics Through an AI-Assisted Pedagogy</span>
-      </p>
-
-      <p class="program-item level-1">
-        13:50 Guest Presentation(2): CHU Man Ying Amanda (The Education University of Hong Kong);
       </p>
 
       <p class="program-item level-1">
