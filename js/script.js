@@ -76,7 +76,7 @@ const contents = {
       </p>
 
       <p class="program-item level-1">
-        14:50 Manabu Asai (Souka Univ.);<br>
+        14:50 Manabu Asai (Soka Univ.);<br>
         <span class="level-2">The Impact of Generative AI Usage on Critical Thinking Skills at Soka University</span>
       </p>
 
@@ -86,7 +86,7 @@ const contents = {
       </p>
       
       <p class="program-item level-1">
-        15:30 Syunichi Honda (CIST);<br>
+        15:30 Shun'ichi Honda (CIST);<br>
         <span class="level-2">A report on the instructional practice in a statistics course incorporating CBT and AI-based feedback</span>
       </p>
 
@@ -102,7 +102,7 @@ const contents = {
               <span class="level-2">Research on Generative AI Dialogue Systems in Mixed Reality</span>
           </li>
           <li>
-              Goto Shunsuke (CIST);<br>
+              Shunsuke Goto (CIST);<br>
               <span class="level-2">Development of a BLS Self-Training Support System using MR and Sensor Devices</span>
           </li>
           <li>
